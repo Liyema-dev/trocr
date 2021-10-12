@@ -28,7 +28,8 @@ from transformers import TrOCRProcessor, VisionEncoderDecoderModel
 from PIL import Image
 import requests
 
-url = 'http://images.cocodataset.org/val2017/000000039769.jpg'
+# load image from the IAM database (actually this model is meant to be used on printed text)
+url = 'https://fki.tic.heia-fr.ch/static/img/a01-122-02-00.jpg'
 image = Image.open(requests.get(url, stream=True).raw)
 
 processor = TrOCRProcessor.from_pretrained('microsoft/trocr-large-printed')
