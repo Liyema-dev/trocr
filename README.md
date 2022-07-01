@@ -1,6 +1,7 @@
 ---
 tags:
 - trocr
+- image-to-text
 ---
 
 # TrOCR (large-sized model, fine-tuned on SROIE) 
