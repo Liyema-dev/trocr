@@ -2,6 +2,13 @@
 tags:
 - trocr
 - image-to-text
+widget:
+- src: https://layoutlm.blob.core.windows.net/trocr/dataset/SROIE2019Task2Crop/train/X00016469612_1.jpg
+  example_title: Printed 1
+- src: https://layoutlm.blob.core.windows.net/trocr/dataset/SROIE2019Task2Crop/train/X51005255805_7.jpg
+  example_title: Printed 2
+- src: https://layoutlm.blob.core.windows.net/trocr/dataset/SROIE2019Task2Crop/train/X51005745214_6.jpg
+  example_title: Printed 3
 ---
 
 # TrOCR (large-sized model, fine-tuned on SROIE) 
